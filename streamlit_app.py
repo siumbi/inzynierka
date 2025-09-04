@@ -17,7 +17,7 @@ if "logged_in" not in st.session_state:
 
 # --- LOGIN PAGE ---
 def login_page():
-    st.title("🔑 Login")
+    st.title("🔑 Logn")
 
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")

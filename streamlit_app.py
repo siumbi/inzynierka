@@ -17,7 +17,7 @@ if "logged_in" not in st.session_state:
 
 # --- LOGIN PAGE ---
 def login_page():
-    st.title("🔑 Logn")
+    st.title("🔑 Log")
 
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
@@ -35,7 +35,7 @@ def login_page():
 
 # --- ADMIN PAGES ---
 def admin_dashboard():
-    st.title("📊 Admin Dashboard")
+    st.title("📊 Admin Dasboard")
     st.write("Full access to reports and management tools.")
 
 def manage_users():
